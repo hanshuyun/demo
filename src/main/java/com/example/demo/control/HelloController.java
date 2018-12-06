@@ -10,6 +10,7 @@ public class HelloController {
     @GetMapping("say")
     public String say(){
         Date s= new Date();
+        //121212s
         return s.toString();
     }
 }
